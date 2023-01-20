@@ -1,0 +1,61 @@
+
+body {
+    background-image: url(images/background/background\ 1.png);
+    background-color: rgb(236, 182, 121);
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    }    
+div {
+    font-style: italic;
+    text-align: center;
+    font-size: 200%; 
+    color: black;                                       
+    }  
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu a {
+    color: white;                                                                                                                                                                     
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    background-color: rgb(230, 166, 28);
+    min-width: 120px;
+    text-align: center;
+    border: 2px;                                                                                                                                                           
+    border-radius: 5px;
+    
+    
+}
+.parent-grille {
+display: grid;
+grid-template-columns: auto;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 200%; 
+    color: black
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.zone1 {
+    grid-column: 1;
+    grid-row: 1;
+    }
+
+footer   {
+    height: 200px;
+    background-color: rgb(218, 137, 62);
+}  

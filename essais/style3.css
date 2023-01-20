@@ -1,0 +1,119 @@
+body {
+    background-image: url(images/background/background\ 1.png);
+    background-color: rgb(131, 129, 127);
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    }    
+
+div {
+    font-style: italic;
+    text-align: center;
+    font-size: 200%; 
+    color: black;                                       
+    }  
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu a {
+    color: white;                                                                                                                                                                     
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    background-color: rgb(230, 166, 28);
+    min-width: 120px;
+    text-align: center;
+    border: 2px;                                                                                                                                                           
+    border-radius: 5px;   
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 100%; 
+    color: rgb(230, 166, 28)
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.formulaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.contactez-moi {
+    width: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0 50px 0 50px;
+    background: url(images/background/physalis.png);
+}
+
+form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 83px;
+    margin-top: 25px;
+    }
+    
+    form div > label {
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-align: left;
+    }
+    
+    form div > input, form div > textarea {
+    background: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    form div > input
+        {
+        height: 30px;
+        padding-left: 10px;
+        }
+        form div > textarea {
+            height: 30px;
+            padding: 15px 0px 0px 10px;
+            }
+            
+            form div > input::placeholder, form div > textarea::placeholder {
+            color: rgb(163, 159, 159);
+            }
+            
+            form div:last-child {
+            align-items: center;
+            margin-top: 20px;
+            }
+            
+            form button {
+            width: 300px;
+            max-width: 500px;
+            height: 60px;
+            font-weight: 700;
+            font-size: 28px;
+            background: white;
+            border: rgba(48, 48, 48, 0.5) solid 1px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+            color: #303030;
+            }   
+footer   {
+    height: 200px;
+    background-color: rgb(218, 137, 62);
+}  

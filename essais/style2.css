@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(199, 197, 195);
+    margin: 0;
+    padding: 0;
+    }    
+div {
+    font-style: italic;
+    text-align: center;
+    font-size: 200%; 
+    color: black;                                                      
+    }  
+.menu {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+.menu a {
+    color: white;                                                                                                                                                                     
+    text-decoration: none;
+    display: block;
+    margin: 0.5rem;
+    padding: 0.4rem 0;
+    background-color: rgb(230, 166, 28);
+    min-width: 120px;
+    text-align: center;
+    border: 2px;                                                                                                                                                           
+    border-radius: 5px;
+}
+.parent-grille1 {
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .zone1 {
+        grid-column: 1;
+        grid-row: 1;
+        }
+
+    .zone2 {
+        grid-column: 2;
+        grid-row: 1;
+        }
+
+    .zone3 {
+        grid-column: 3;
+        grid-row: 1;
+        }
+
+    .zone4 {
+        grid-column:4;
+        grid-row: 1;
+        }
+
+.parent-grille2 {
+    display: grid;
+    grid-template-columns: auto;
+    }
+    .zone5 {
+        grid-column: 1;
+        grid-row: 1;
+        }
+        
+    .zone6 {
+        grid-column: 2;
+        grid-row: 1;
+        }
+        
+    .zone7 {
+        grid-column: 3;
+        grid-row: 1;
+        }
+        
+    .zone8 {
+        grid-column:4;
+        grid-row: 1;
+        }
+
+.parent-grille3 {
+    display: grid;
+    grid-template-columns: auto;
+    }
+
+    .zone9 {
+        grid-column: 1;
+        grid-row: 1;
+        }
+                
+    .zone10 {
+        grid-column: 2;
+        grid-row: 1;
+        }
+                
+    .zone11 {
+        grid-column: 3;
+        grid-row: 1;
+        }     
+    
+
+p {
+  text-align: center;
+}
+
+footer   {
+    height: 200px;
+    background-color: rgb(218, 137, 62);
+}
